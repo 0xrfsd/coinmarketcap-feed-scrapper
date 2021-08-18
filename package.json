@@ -1,0 +1,20 @@
+{
+  "name": "larv4",
+  "version": "1.0.0",
+  "description": "A simple package to mantain our node data",
+  "main": "asyncawait.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "Ricardo Domene",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "node-cron": "^3.0.0",
+  },
+  "devDependencies": {
+    "express-json-validator-middleware": "^2.1.1"
+  }
+}
